@@ -57,7 +57,7 @@ function nextSequence() {
   // $("#" + randomChosenColour).on("click", function () {
   $("#" + randomChosenColour)
     .fadeIn(100)
-    .fadeOut(100)
+    .fadeOut(101)
     .fadeIn(100);
   playSound(randomChosenColour);
 }
